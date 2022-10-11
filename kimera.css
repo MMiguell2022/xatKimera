@@ -1,0 +1,72 @@
+body{
+    background:url(https://images.weserv.nl/?h=0&url=https%3A%2F%2Fimg.xatblog.net%2Fimage%2FF4DMK1FV0rF.png),
+    radial-gradient(#1a1919, #0d0d0c);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    min-height:100vh;
+    overflow:hidden;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --font-1: 'Open Sans', sans-serif;
+    --font-2: 'Oswald', sans-serif;
+    --font-3: 'Fjalla One', sans-serif;
+}
+:before, :after{
+    content:'';
+    position:absolute;
+}
+
+.jd__inner{
+    transform: rotate(45deg);
+    width:0px;
+    height:100px;
+    position:absolute;
+    top:130px;
+    left:430px;
+    background:radial-gradient(620px 620px ellipse at -100px center, #cb1abd 620px, transparent 621px), #df07db;
+    animation:moon_pulse 1s ease-in-out infinite;
+}
+@keyframes moon_pulse{
+    0%{
+        box-shadow:0 0 80px 20px #dd4cad;
+    }
+    35%{
+        box-shadow:0 0 80px 40px #dd4cad8d;
+    }
+    70%{
+        box-shadow:0 0 80px 20px #dd4cad;
+    }
+    100%{
+        box-shadow:0 0 80px 40px #dd4cad8d;
+    }
+}
+.jd__inner1{
+    transform: rotate(25deg);
+    width:0px;
+    height:100px;
+    position:absolute;
+    top:80px;
+    left:230px;
+    background:radial-gradient(620px 620px ellipse at -1000px center, #525af4 620px, transparent 621px), #525af4;
+    animation:moon_pulse1 1s ease-in-out infinite;
+}
+@keyframes moon_pulse1{
+    0%{
+        box-shadow:0 0 80px 20px #08c9f5;
+    }
+    35%{
+        box-shadow:0 0 80px 40px #08caf5a8;
+    }
+    70%{
+        box-shadow:0 0 80px 20px #08c9f5;
+    }
+    100%{
+        box-shadow:0 0 80px 40px #08caf588;
+    }
+}
